@@ -59,7 +59,7 @@ int main(int ac, char** av) {
         return(-1);
     }
 
-    printf("st-flash %s\n", STLINK_VERSION);
+    printf("st-flash %s (domingguss)\n", STLINK_VERSION);
 
     sl = stlink_open_usb(o.log_level,
             o.connect_under_reset ? 2 : 1,
