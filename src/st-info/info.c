@@ -43,8 +43,6 @@ static void stlink_print_version(stlink_t *sl) {
         printf("J%u", sl->version.jtag_v);
     if (sl->version.swim_v > 0)
         printf("S%u", sl->version.swim_v);
-
-    printf("(domingguss)");
     printf("\n");
 }
 
