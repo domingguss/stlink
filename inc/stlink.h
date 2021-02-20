@@ -8,6 +8,8 @@
 #ifndef STLINK_H
 #define STLINK_H
 
+#define DOMINGGUSS_waiting 1000
+
 #include <stdint.h>
 #include <stddef.h>
 #include <stdbool.h>
