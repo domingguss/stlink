@@ -8,7 +8,7 @@
 #ifndef STLINK_H
 #define STLINK_H
 
-#define DOMINGGUSS_waiting 1000
+#define DOMINGGUSS_waiting 3000
 
 #include <stdint.h>
 #include <stddef.h>
